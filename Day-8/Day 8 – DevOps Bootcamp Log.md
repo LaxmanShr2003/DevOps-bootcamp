@@ -4,11 +4,11 @@ Today’s session was fully focused on understanding the **Git Lifecycle**, bran
 
 ## **Git Lifecycle**
 
-![image.png](image.png)
+![image.png](images/image.png)
 
 ---
 
-## **1.  “Who, What, When”**
+## **1. “Who, What, When”**
 
 I learned how Git tracks everything:
 
@@ -29,29 +29,19 @@ The main idea of branching is to make development clean and risk-free.
 Key reasons for branching:
 
 - **Isolate feature development**
-    
-    Each feature gets its own branch so it doesn't break the main code.
-    
+  Each feature gets its own branch so it doesn't break the main code.
 - **Easy to revert changes**
-    
-    If something goes wrong, only that branch is affected.
-    
+  If something goes wrong, only that branch is affected.
 - **Reduce overwriting changes**
-    
-    Developers don’t step on each other's work.
-    
+  Developers don’t step on each other's work.
 - **Cleaner workflow**
-    
-    Different tasks → different branches.
-    
+  Different tasks → different branches.
 
 ### **Important point I learned:**
 
 > Even if a project uses multiple branches, the branching strategy must remain linear or must be made linear when merging into the main branch.
-> 
-> 
+>
 > This keeps history clean and prevents complicated merges.
-> 
 
 ---
 
@@ -70,7 +60,7 @@ git merge feature-login
 
 ### **Pull Requests**
 
-- A Pull Request is basically *“I want to merge my branch – please review it.”*
+- A Pull Request is basically _“I want to merge my branch – please review it.”_
 - Helps maintain code quality through review and approval.
 
 ---
@@ -94,7 +84,7 @@ This is a normal part of teamwork in Git.
 
 ## **5. Environments in Git**
 
-![image.png](image%201.png)
+![image.png](images/image%201.png)
 
 One interesting concept today was understanding **environments**.
 
