@@ -20,13 +20,12 @@ Required: Access key and aws secrect access key
 
 As we are using the sandbox environment here, sandbox provides us these credentials after successful opening. 
 
-Go to the right top where you can find “*aws details” . Click the button*
+Go to the right top where you can find “*aws details” . Click the button* then copy the credentials.
 
-![image.png](images/image.png)
 
 **Step 3: Open your terminal, and use this command to access aws console**
 
-![image.png](images/image%201.png)
+	aws configure
 
               Now lets create a bucket and list the bucket. Using below command we can create bucket . After successful creation of bucket, system will provide name of the bucket as output
 
